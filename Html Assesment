@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name=""viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact form</title>
+    <style>
+      .container{
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+      .iframe-container {
+        max-width: 800px;
+        margin: 0 auto;
+      }
+      th, td {
+        border: 1px solid black;
+        padding: 5px;
+        text-align: center;
+      }
+      .button-cell button {
+padding: 10px 20px;
+font-size: 15px;
+cursor: pointer;
+      }
+    
+    </style>
+ </head>
+  <body>
+        <div class="container">
+          <h1>Contact Form</h1>
+        <form action="" method="">
+            <label for="fullname">Full Name</label>
+         <input type="text" id="fullname" name="fullname" placeholder="Input your full name" required><br><br>
+         <label for="email">Email</label>
+         <input type="text" id="email" name="email" placeholder="Email Address" required> <br><br>
+         <label for="age">Age</label>
+         <input type="number" id="age" name="age" placeholder="Your age" required> <br><br>
+         <label for="dob">Date of Birth</label>
+         <input type="date" id="dob" name="dob" placeholder="Your date of birth" required><br><br>
+         <label for="message">Messsage</label>
+         <textarea id="message" name="message" placeholder="Write something" style="height: 200px;" required></textarea><br><br>
+         <input type="submit" value="Submit">
+    </form>
+        </div>
+        <div class="iframe-container">
+    <iframe width="420" height="315"src="https://youtube.com/watch?v=mNsKOYyttUU&si=coJUz4yHYpb1xcxi3" target="_blank"></iframe>
+        </div>
+        <div>
+          <table style="width: 100%">
+            <tr>
+              <th>Actions</th>
+              <th>First Name</th>
+              <th>Last Name</th>
+              <th>Age</th>
+              <th>State of Origin</th>
+            </tr>
+            <tr>
+              <td class="button-cell"><button onclick="alert">Football</button></td>
+              <td>Jide</td>
+              <td>Okocha</td>
+              <td>17</td>
+              <td>Oyo</td>
+            </tr>
+
+            <tr>
+              <td class="button-cell"><button onclick="alert">Basketball</button></td>
+              <td>Johnson</td>
+              <td>Joe</td>
+              <td>25</td>
+              <td>Bauchi</td>
+            </tr>
+            <tr>
+              <td class="button-cell"><button onclick="alert">Volleyball</button></td>
+              <td>John</td>
+              <td>Osimen</td>
+              <td>30</td>
+              <td>Anambra</td>
+            </tr>
+            <tr>
+              <td class="button-cell"><button onclick="alert">Hockey</button></td>
+              <td>Jide</td>
+              <td>Kosoko</td>
+              <td>32</td>
+              <td>Osun</td>
+            </tr>
+            <tr>
+              <td class="button-cell"><button onclick="alert">Tennis</button></td>
+              <td>Wole</td>
+              <td>Shoyinka</td>
+              <td>20</td>
+              <td>Ogun</td>
+            </tr>
+          </table>
+          
+        </div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </body>
+    </html>
+   
